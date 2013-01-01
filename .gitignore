@@ -1,2 +1,6 @@
 # osx noise
 .DS_Store
+
+# .rtf files
+/test-contracts/SERVER-vanbtc.rtf
+/test-contracts/ASSET-DigitalBitcoinTokens.rtf
