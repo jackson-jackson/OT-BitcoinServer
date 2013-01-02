@@ -64,9 +64,9 @@ type="decimal" factor="1" decimal_power="0" fraction=""/>
     
 <condition name="privacy">
   The purchase and exchange of Digital Bitcoin Tokens are conducted on the basis of strong privacy.
- </condition>
+</condition>
     
-    <!-- KEYS -->
+<!-- KEYS -->
     
 <key name="contract">
 - -----BEGIN CERTIFICATE-----
