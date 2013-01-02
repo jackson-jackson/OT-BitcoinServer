@@ -1,59 +1,65 @@
 <?xml version="1.0"?>
 <notaryProviderContract version="1.0">
     
-    <entity shortname="vanbtc.ca"
-    longname="Vancouver Bitcoin"
-    email="stretchwarren@gmail.com or asoltys@gmail.com"
-    serverURL="vanbtc.ca"/>
+<entity shortname="vanbtc.ca"
+longname="Vancouver Bitcoin"
+email="stretchwarren@gmail.com or asoltys@gmail.com"
+serverURL="vanbtc.ca"/>
     
-    <notaryServer hostname="vanbtc.ca"
-    port="7085"
-    URL="vanbtc.ca"/>
+<notaryServer hostname="vanbtc.ca"
+port="7085"
+URL="vanbtc.ca"/>
     
     <!-- CONDITIONS -->
     
-    <condition name="backing">
-        Any assets issued by Vancouver Bitcoin are backed by 100% reserves; the backing details for each asset can be viewed in their individual asset contracts.
-    </condition>
+<condition name="backing">
+  Any assets issued by Vancouver Bitcoin are backed by 100% reserves; the backing details for each asset 
+  can be viewed in their individual asset contracts.
+</condition>
     
-	<condition name="audit">
-        Vancouver Bitcoin operates open source, Open Transactions software, code audits are randomly performed by CodeNotary.com.
-    </condition>
+<condition name="audit">
+  Vancouver Bitcoin operates open source, Open Transactions software, code audits are randomly performed 
+  by CodeNotary.com.
+</condition>
     
-    <condition name="rate">
-        Issuance and redemption fees for Vancouver Bitcoin assets will specified in their individual asset contracts.
-	</condition>
+<condition name="rate">
+  Issuance and redemption fees for Vancouver Bitcoin assets will specified in their individual asset contracts.
+</condition>
     
-    <condition name="liability">
-        Vancouver Bitcoin is in no way liable for the digital assets that it mints and issues; however, Vancouver Bitcoin is liable to keep transactions secure (this is why we use Open Transactions).
-    </condition>
+<condition name="liability">
+  Vancouver Bitcoin is in no way liable for the digital assets that it mints and issues; however, Vancouver Bitcoin is liable to keep transactions secure (this is why we use Open Transactions).
+</condition>
     
-    <condition name="mint">
-		The total quantity of any digital asset minted by Vancouver Bitcoin will be backed by 100% reserves of said asset, held in a highly secure and auditable location: audit location and details will be specified in each individual asset contract. All Vancouver Bitcoin digital asset contracts are cryptographic digital analogues to their respective natural identities, for example: gold, silver, bitcoin. They cannot be forged by anyone, including the server operator.
-    </condition>
+<condition name="mint">
+  The total quantity of any digital asset minted by Vancouver Bitcoin will be backed by 100% reserves of 
+  said asset, held in a highly secure and auditable location: audit location and details will be specified 
+  in each individual asset contract. All Vancouver Bitcoin digital asset contracts are cryptographic 
+  digital analogues to their respective natural identities, for example: gold, silver, bitcoin. They cannot 
+  be forged by anyone, including the server operator.
+</condition>
     
-    <condition name="privacy">
-		The purchase and trading of digital assets on Vancouver Bitcoin servers is always conducted on the basis of strong privacy.
-    </condition>
+<condition name="privacy">
+  The purchase and trading of digital assets on Vancouver Bitcoin servers is always conducted on the basis of strong privacy.
+</condition>
     
     <!-- KEYS -->
     
-    <key name="contract">
-        - -----BEGIN CERTIFICATE-----
-        MIICPzCCAaigAwIBAgIBADANBgkqhkiG9w0BAQQFADAlMQswCQYDVQQGEwJVSzEW
-        MBQGA1UEAxMNT3BlblNTTCBHcm91cDAeFw0xMzAxMDEwNTU4NThaFw0yMjEyMzAw
-        NTU4NThaMCUxCzAJBgNVBAYTAlVLMRYwFAYDVQQDEw1PcGVuU1NMIEdyb3VwMIGf
-        MA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIEkyh/CzzQgnbplrV8QfODuXbOYeh
-        hfb3htSpW+d7X2dCeC4WJLm9Y0AXkHmaSCh+PpoWzTxGet1/4aWABu6sK3T6EbxW
-        ZQl0a4vdnhRtm7RzlVDXHFJ+FhHiUOVl2EcrS+feJgTfU3X+77ITiIU4Gtb3QUBx
-        0YOaYBbuBoy4YQIDAQABo38wfTAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQE
-        AwIBBjAdBgNVHQ4EFgQUSRGbfqggMGHx0sy2oATvDYDDMRcwEQYJYIZIAYb4QgEB
-        BAQDAgIEMCgGCWCGSAGG+EIBDQQbFhlleGFtcGxlIGNvbW1lbnQgZXh0ZW5zaW9u
-        MA0GCSqGSIb3DQEBBAUAA4GBAFw8O5DyUsxVWgnG8i37jn8G7ASn9OavBwhWRMaK
-        Y85zX++epW6T6go4vQs4p2P4A+1feXp9Xqnr7zs6QKIzAsrUeivNnHRs2njttFly
-        0cDjDYWTOHUXQPqC4XJSjF/Bx06y2Q67d/+sXeqSr3LcorrReSBrfIN8RytC55PP
-        tSC9
-        - -----END CERTIFICATE----
-    </key>
+<key name="contract">
+- -----BEGIN CERTIFICATE-----
+MIICPzCCAaigAwIBAgIBADANBgkqhkiG9w0BAQQFADAlMQswCQYDVQQGEwJVSzEW
+MBQGA1UEAxMNT3BlblNTTCBHcm91cDAeFw0xMzAxMDEwNTU4NThaFw0yMjEyMzAw
+NTU4NThaMCUxCzAJBgNVBAYTAlVLMRYwFAYDVQQDEw1PcGVuU1NMIEdyb3VwMIGf
+MA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIEkyh/CzzQgnbplrV8QfODuXbOYeh
+hfb3htSpW+d7X2dCeC4WJLm9Y0AXkHmaSCh+PpoWzTxGet1/4aWABu6sK3T6EbxW
+ZQl0a4vdnhRtm7RzlVDXHFJ+FhHiUOVl2EcrS+feJgTfU3X+77ITiIU4Gtb3QUBx
+0YOaYBbuBoy4YQIDAQABo38wfTAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQE
+AwIBBjAdBgNVHQ4EFgQUSRGbfqggMGHx0sy2oATvDYDDMRcwEQYJYIZIAYb4QgEB
+BAQDAgIEMCgGCWCGSAGG+EIBDQQbFhlleGFtcGxlIGNvbW1lbnQgZXh0ZW5zaW9u
+MA0GCSqGSIb3DQEBBAUAA4GBAFw8O5DyUsxVWgnG8i37jn8G7ASn9OavBwhWRMaK
+Y85zX++epW6T6go4vQs4p2P4A+1feXp9Xqnr7zs6QKIzAsrUeivNnHRs2njttFly
+0cDjDYWTOHUXQPqC4XJSjF/Bx06y2Q67d/+sXeqSr3LcorrReSBrfIN8RytC55PP
+tSC9
+- -----END CERTIFICATE----
+</key>
     
 </transactionServerContract>
