@@ -10,7 +10,7 @@ serverURL="vanbtc.ca"/>
 port="7085"
 URL="vanbtc.ca"/>
     
-    <!-- CONDITIONS -->
+<!-- CONDITIONS -->
     
 <condition name="backing">
   Any assets issued by Vancouver Bitcoin are backed by 100% reserves; the backing details for each asset 
@@ -44,7 +44,7 @@ URL="vanbtc.ca"/>
   of strong privacy.
 </condition>
     
-    <!-- KEYS -->
+<!-- KEYS -->
     
 <key name="contract">
 - -----BEGIN CERTIFICATE-----
