@@ -30,8 +30,7 @@ type="decimal" factor="1" decimal_power="0" fraction=""/>
   rate—at vanbtc.ca/ot/purchase. Any assets exchanged for Digital Bitcoin Tokens, such as cash, will be 
   exchanged for bitcoin then transferred into Vancouver Bitcoin's minting account at 
   14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin blockchain, before, Digital Bitcoin Tokens will be 
-  minted and issued to the purchaser. 
-  This guarantees 100% reserves in the minting account.
+  minted and issued to the purchaser. This guarantees 100% reserves in the minting account.
 </condition>
     
 <condition name="redemption">
