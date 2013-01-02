@@ -27,7 +27,8 @@ URL="vanbtc.ca"/>
 </condition>
     
 <condition name="liability">
-  Vancouver Bitcoin is in no way liable for the digital assets that it mints and issues; however, Vancouver Bitcoin is liable to keep transactions secure (this is why we use Open Transactions).
+  Vancouver Bitcoin is in no way liable for the digital assets that it mints and issues; however, Vancouver 
+  Bitcoin is liable to keep transactions secure (this is why we use Open Transactions).
 </condition>
     
 <condition name="mint">
@@ -39,7 +40,8 @@ URL="vanbtc.ca"/>
 </condition>
     
 <condition name="privacy">
-  The purchase and trading of digital assets on Vancouver Bitcoin servers is always conducted on the basis of strong privacy.
+  The purchase and trading of digital assets on Vancouver Bitcoin servers is always conducted on the basis 
+  of strong privacy.
 </condition>
     
     <!-- KEYS -->
