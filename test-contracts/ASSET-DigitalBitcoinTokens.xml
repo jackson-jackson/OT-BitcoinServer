@@ -1,89 +1,89 @@
 <?xml version="1.0"?>
 <digitalAssetContract version="1.0">
     
-	<entity shortname="digiBTC"
-	longname="Digital Bitcoin Tokens"
-	email="stretchwarren@gmail.com or asoltys@gmail.com"/>
+<entity shortname="digiBTC"
+longname="Digital Bitcoin Tokens"
+email="stretchwarren@gmail.com or asoltys@gmail.com"/>
+
+<issue company="Vancouver Bitcoin"
+email="stretchwarren@gmail.com or asoltys@gmail.com"
+contractUrl="vanbtc.ca/ot/contracts/digiBTC"
+type="currency"/>
     
-	<issue company="Vancouver Bitcoin"
-	email="stretchwarren@gmail.com or asoltys@gmail.com"
-	contractUrl="vanbtc.ca/digibtc"
-	type="currency"/>
+<currency name="digiBTC" tla="dBTC" symbol="dBTC"
+type="decimal" factor="1" decimal_power="0" fraction=""/>
     
-    <currency name="digiBTC" tla="dBTC" symbol="dBTC"
-    type="decimal" factor="1" decimal_power="0" fraction=""/>
+<!-- CONDITIONS -->
     
-    <!-- CONDITIONS -->
+<condition name="backing">
+  Digital Bitcoin Tokens are backed by actual bitcoin, held in reserve by Vancouver Bitcoin 
+  at 14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin blockchain.
+</condition>
     
-    <condition name="backing">
-        Digital Bitcoin Tokens are backed by actual bitcoin, held in reserve 
-        by Vancouver Bitcoin at 14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin blockchain.
-    </condition>
+<condition name="audit">
+  Vancouver Bitcoin's reserves can be audited, at anytime, by viewing 14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn 
+  on the bitcoin blockchain.
+</condition>
     
-    <condition name="audit">
-        Vancouver Bitcoin's reserves can be audited, at anytime, by viewing 
-        14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin blockchain.
-	</condition>
+<condition name="purchase">
+  Digital Bitcoin Tokens can be purchased with bitcoin, or any other asset—for an agreed upon exchange 
+  rate—at vanbtc.ca/ot/purchase. Any assets exchanged for Digital Bitcoin Tokens, such as cash, will be 
+  exchanged for bitcoin then transferred into Vancouver Bitcoin's minting account at 
+  14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin blockchain, before, Digital Bitcoin Tokens will be 
+  minted and issued to the purchaser. 
+  This guarantees 100% reserves in the minting account.
+</condition>
     
-    <condition name="purchase">
-        Digital Bitcoin Tokens can be purchased with bitcoin, or any other asset—for 
-        an agreed upon exchange rate—at vanbtc.ca/purchase. Any assets exchanged for 
-        Digital Bitcoin Tokens, such as gold, will be exchanged for bitcoin then transferred 
-        into Vancouver Bitcoin's minting account at 14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin 
-        blockchain before Digital Bitcoin Tokens will be minted and issued to the purchaser. 
-        This guarantees 100% reserves in the minting account. You can't mint gold coins without gold!
-    </condition>
+<condition name="redemption">
+  Digital Bitcoin Tokens can be redeemed at vanbtc.ca/redeem.
+</condition>
     
-    <condition name="redemption">
-        Digital Bitcoin Tokens can be redeemed at vanbtc.ca/redeem.
-    </condition>
+<condition name="rate">
+  Issuance and redemption will be performed for a .25% fee by Vancouver Bitcoin, this fee pays for 
+  administration and server expenses etc.
+</condition>
     
-    <condition name="rate">
-        Issuance and redemption will be performed for a .25% fee by Vancouver Bitcoin, this fee 
-        pays for administration and server expenses etc.
-    </condition>
+<condition name="buyback">
+  The Issuer reserves the right to buy back all outstanding currency, thereby terminating the use of this 
+  instrument.
+</condition>
     
-    <condition name="buyback">
-        The Issuer reserves the right to buy back all outstanding currency, thereby terminating the 
-        use of this instrument.
-    </condition>
+<condition name="liability">
+  Vancouver Bitcoin is in no way liable for the Digital Bitcoin Tokens that it mints and issues; however, 
+  Vancouver Bitcoin will buy back any Digital Bitcoin Tokens it has issued, and for which it has the 
+  equivalent amount of bitcoin is held in reserve at 14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin 
+  blockchain.
+</condition>
     
-    <condition name="liability">
-        Vancouver Bitcoin is in no way liable for the Digital Bitcoin Tokens that it mints and 
-        issues; however, Vancouver Bitcoin will buy back any Digital Bitcoin Tokens it has issued, 
-        and for which it has the equivalent amount of bitcoin is held in reserve at 
-        14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin blockchain.
-    </condition>
+<condition name="mint">
+  The total quantity of Digital Bitcoin Tokens, minted by Vancouver Bitcoin, will be the 
+  exact amount of bitcoin held in Vancouver Bitcoin's reserve account 
+  at 14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin blockchain. Vancouver Bitcoin mints 
+  Digital Bitcoin Tokens from actual bitcoin—JUST LIKE GOLD MINTS MINT GOLD COINS OUT OF ACTUAL GOLD.
+</condition>
     
-    <condition name="mint">
-        The total quantity of Digital Bitcoin Tokens, minted by Vancouver Bitcoin, will be the 
-        exact amount of bitcoin that has been deposited into Vancouver Bitcoin's reserve account 
-        at 14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin blockchain. Vancouver Bitcoin mints 
-        Digital Bitcoin Tokens from actual bitcoin—JUST LIKE GOLD MINTS MINT GOLD COINS OUT OF ACTUAL GOLD.
-    </condition>
-    
-    <condition name="privacy">
-        The purchase and trading of Digital Bitcoin Tokens are done on the basis of strong privacy.
-	</condition>
+<condition name="privacy">
+  The purchase and exchange of Digital Bitcoin Tokens are conducted on the basis of strong privacy.
+ </condition>
     
     <!-- KEYS -->
     
-    <key name="contract">
-        - -----BEGIN CERTIFICATE-----
-        MIICPzCCAaigAwIBAgIBADANBgkqhkiG9w0BAQQFADAlMQswCQYDVQQGEwJVSzEW
-        MBQGA1UEAxMNT3BlblNTTCBHcm91cDAeFw0xMzAxMDEwNjQ5MDFaFw0yMjEyMzAw
-        NjQ5MDFaMCUxCzAJBgNVBAYTAlVLMRYwFAYDVQQDEw1PcGVuU1NMIEdyb3VwMIGf
-        MA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQUdeBs3EL2X3I8FteI5zgkW6diRHL
-        4MO2utSC5XjCyvwO08uw1BrLXQTnGlm0/XeEnSo0ARrAbQALEzp9UsD5YxWvLBnp
-        xi3zJOgB1n9aHdKc79uslhM5foZQPE5K1VDOT56RmumF4oZZhI8KKVK1WmhPRoZg
-        RyxVutksfcRYIQIDAQABo38wfTAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQE
-        AwIBBjAdBgNVHQ4EFgQUPO5QnTwOyXm7CcvErYf/WG1vPSQwEQYJYIZIAYb4QgEB
-        BAQDAgIEMCgGCWCGSAGG+EIBDQQbFhlleGFtcGxlIGNvbW1lbnQgZXh0ZW5zaW9u
-        MA0GCSqGSIb3DQEBBAUAA4GBAG8CD0ghjLNRbcfK12l/WsPq3lK6QlAOCOn4XNiE
-        dFJgOiVNdwFWnCsfmlEMaC5IfywaLK2CgTS2RNFlNiHXna+H7NSEs7SB7BI1lfUC
-        sJMHpOhmH1USuGocgRSE44kY0zWnDyxZGeRKkBrtCd0+WNLi/33ZM+/wUeqSTsp3
-        G0fd
-        - -----END CERTIFICATE-----
-    </key>
+<key name="contract">
+- -----BEGIN CERTIFICATE-----
+MIICPzCCAaigAwIBAgIBADANBgkqhkiG9w0BAQQFADAlMQswCQYDVQQGEwJVSzEW
+MBQGA1UEAxMNT3BlblNTTCBHcm91cDAeFw0xMzAxMDEwNjQ5MDFaFw0yMjEyMzAw
+NjQ5MDFaMCUxCzAJBgNVBAYTAlVLMRYwFAYDVQQDEw1PcGVuU1NMIEdyb3VwMIGf
+MA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQUdeBs3EL2X3I8FteI5zgkW6diRHL
+4MO2utSC5XjCyvwO08uw1BrLXQTnGlm0/XeEnSo0ARrAbQALEzp9UsD5YxWvLBnp
+xi3zJOgB1n9aHdKc79uslhM5foZQPE5K1VDOT56RmumF4oZZhI8KKVK1WmhPRoZg
+RyxVutksfcRYIQIDAQABo38wfTAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQE
+AwIBBjAdBgNVHQ4EFgQUPO5QnTwOyXm7CcvErYf/WG1vPSQwEQYJYIZIAYb4QgEB
+BAQDAgIEMCgGCWCGSAGG+EIBDQQbFhlleGFtcGxlIGNvbW1lbnQgZXh0ZW5zaW9u
+MA0GCSqGSIb3DQEBBAUAA4GBAG8CD0ghjLNRbcfK12l/WsPq3lK6QlAOCOn4XNiE
+dFJgOiVNdwFWnCsfmlEMaC5IfywaLK2CgTS2RNFlNiHXna+H7NSEs7SB7BI1lfUC
+sJMHpOhmH1USuGocgRSE44kY0zWnDyxZGeRKkBrtCd0+WNLi/33ZM+/wUeqSTsp3
+G0fd
+- -----END CERTIFICATE-----
+</key>
     
 </digitalAssetContract>
