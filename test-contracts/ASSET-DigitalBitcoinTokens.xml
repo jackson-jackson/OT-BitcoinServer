@@ -16,15 +16,22 @@
     <!-- CONDITIONS -->
     
     <condition name="backing">
-        Digital Bitcoin Tokens are backed by actual bitcoin, held in reserve by Vancouver Bitcoin at 14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin blockchain.
+        Digital Bitcoin Tokens are backed by actual bitcoin, held in reserve 
+        by Vancouver Bitcoin at 14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin blockchain.
     </condition>
     
     <condition name="audit">
-        Vancouver Bitcoin's reserves can be audited, at anytime, by viewing 14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin blockchain.
+        Vancouver Bitcoin's reserves can be audited, at anytime, by viewing 
+        14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin blockchain.
 	</condition>
     
     <condition name="purchase">
-        Digital Bitcoin Tokens can be purchased with bitcoin, or any other asset—for an agreed upon exchange rate—at vanbtc.ca/purchase. Any assets exchanged for Digital Bitcoin Tokens, such as gold, will be exchanged for bitcoin then transferred into Vancouver Bitcoin's minting account at 14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin blockchain before Digital Bitcoin Tokens will be minted and issued to the purchaser. This guarantees 100% reserves in the minting account. You can't mint gold coins without gold!
+        Digital Bitcoin Tokens can be purchased with bitcoin, or any other asset—for 
+        an agreed upon exchange rate—at vanbtc.ca/purchase. Any assets exchanged for 
+        Digital Bitcoin Tokens, such as gold, will be exchanged for bitcoin then transferred 
+        into Vancouver Bitcoin's minting account at 14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin 
+        blockchain before Digital Bitcoin Tokens will be minted and issued to the purchaser. 
+        This guarantees 100% reserves in the minting account. You can't mint gold coins without gold!
     </condition>
     
     <condition name="redemption">
@@ -32,19 +39,27 @@
     </condition>
     
     <condition name="rate">
-        Issuance and redemption will be performed for a .25% fee by Vancouver Bitcoin, this fee pays for administration and server expenses etc.
+        Issuance and redemption will be performed for a .25% fee by Vancouver Bitcoin, this fee 
+        pays for administration and server expenses etc.
     </condition>
     
     <condition name="buyback">
-        The Issuer reserves the right to buy back all outstanding currency, thereby terminating the use of this instrument.
+        The Issuer reserves the right to buy back all outstanding currency, thereby terminating the 
+        use of this instrument.
     </condition>
     
     <condition name="liability">
-        Vancouver Bitcoin is in no way liable for the Digital Bitcoin Tokens that it mints and issues; however, Vancouver Bitcoin will buy back any Digital Bitcoin Tokens it has issued, and for which it has the equivalent amount of bitcoin is held in reserve at 14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin blockchain.
+        Vancouver Bitcoin is in no way liable for the Digital Bitcoin Tokens that it mints and 
+        issues; however, Vancouver Bitcoin will buy back any Digital Bitcoin Tokens it has issued, 
+        and for which it has the equivalent amount of bitcoin is held in reserve at 
+        14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin blockchain.
     </condition>
     
     <condition name="mint">
-        The total quantity of Digital Bitcoin Tokens, minted by Vancouver Bitcoin, will be the exact amount of bitcoin that has been deposited into Vancouver Bitcoin's reserve account at 14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin blockchain. Vancouver Bitcoin mints Digital Bitcoin Tokens from actual bitcoin—JUST LIKE GOLD MINTS MINT GOLD COINS OUT OF ACTUAL GOLD.
+        The total quantity of Digital Bitcoin Tokens, minted by Vancouver Bitcoin, will be the 
+        exact amount of bitcoin that has been deposited into Vancouver Bitcoin's reserve account 
+        at 14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin blockchain. Vancouver Bitcoin mints 
+        Digital Bitcoin Tokens from actual bitcoin—JUST LIKE GOLD MINTS MINT GOLD COINS OUT OF ACTUAL GOLD.
     </condition>
     
     <condition name="privacy">
