@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <digitalAssetContract version="1.0">
     
-<entity shortname="digiBTC"
-longname="Digital Bitcoin Tokens"
+<entity shortname="digiBTCtest"
+longname="Digital Bitcoin Test Tokens"
 email="stretchwarren@gmail.com or asoltys@gmail.com"/>
 
 <issue company="Vancouver Bitcoin"
@@ -30,7 +30,7 @@ type="decimal" factor="1" decimal_power="0" fraction=""/>
   rate—at vanbtc.ca/ot/purchase. Any assets exchanged for Digital Bitcoin Tokens, such as cash, will be 
   exchanged for bitcoin then transferred into Vancouver Bitcoin's minting account at 
   14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin blockchain, before, Digital Bitcoin Tokens will be 
-  minted and issued to the purchaser. This guarantees 100% reserves in the minting account.
+  minted and issued to the purchaser. This guarantees 100 percent reserves in the minting account.
 </condition>
     
 <condition name="redemption">
@@ -38,7 +38,7 @@ type="decimal" factor="1" decimal_power="0" fraction=""/>
 </condition>
     
 <condition name="rate">
-  Issuance and redemption will be performed for a .25% fee by Vancouver Bitcoin, this fee pays for 
+  Issuance and redemption will be performed for a small fee by Vancouver Bitcoin, this fee pays for 
   administration and server expenses etc.
 </condition>
     
@@ -70,18 +70,18 @@ type="decimal" factor="1" decimal_power="0" fraction=""/>
 <key name="contract">
 - -----BEGIN CERTIFICATE-----
 MIICPzCCAaigAwIBAgIBADANBgkqhkiG9w0BAQQFADAlMQswCQYDVQQGEwJVSzEW
-MBQGA1UEAxMNT3BlblNTTCBHcm91cDAeFw0xMzAxMDIwMzU0MTRaFw0yMjEyMzEw
-MzU0MTRaMCUxCzAJBgNVBAYTAlVLMRYwFAYDVQQDEw1PcGVuU1NMIEdyb3VwMIGf
-MA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCcxblN7F7J+DeSKow6HskMBmEpr4Tj
-bG5coa31rQbQfsJKQ8N/+7jrSbVtUuzz0J0Z+u163eh9GWh/KTOd+s1H4mDgh/3x
-l0aaPTa0fseS7Qjsbstk4KAFGe9NbUTRtO/6Q4pSR8QrQKajXW1ZefZOMsXJ0Ksb
-xHoqrG+jgCkJEQIDAQABo38wfTAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQE
-AwIBBjAdBgNVHQ4EFgQUkfpEzA6aomw6zxjOXy92PC1+/ngwEQYJYIZIAYb4QgEB
+MBQGA1UEAxMNT3BlblNTTCBHcm91cDAeFw0xMzAxMDcyMzQ0MTZaFw0yMzAxMDUy
+MzQ0MTZaMCUxCzAJBgNVBAYTAlVLMRYwFAYDVQQDEw1PcGVuU1NMIEdyb3VwMIGf
+MA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+pIm1tgjTnZGvcCfhVFfQZo++LnO1
+4uClGQpN5uqeR0wNqnDXzbHnYMmIJJeNm7fGlAA8nwpIt9yktazJa6u3zWVl+c63
+vDYzASfedPZrujT+ppGIGbjUqNKuro3J8ikOnueF5vb2cBxQafwPyzi313OZt+bK
+fb7Lz9ZMJTbDHQIDAQABo38wfTAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQE
+AwIBBjAdBgNVHQ4EFgQUaNBI2jFeWc+kA5XlPb60Od1cSvgwEQYJYIZIAYb4QgEB
 BAQDAgIEMCgGCWCGSAGG+EIBDQQbFhlleGFtcGxlIGNvbW1lbnQgZXh0ZW5zaW9u
-MA0GCSqGSIb3DQEBBAUAA4GBAAUDWk87zo4jGqU4ZWmYGHWGv3v/k/cAlqWl8MWc
-bkj1C0ueL8KPUdhlC2512fu4bmqUcKCCKMZgErNgRpvbb8PLmmnBoQZwRC29bjjl
-KHAK7sjNLI7VkXD1uC1oWmaaITgxqlZP5QxXpUPWtRB7R7d2GHMgGlaELohfINSh
-ksQH
+MA0GCSqGSIb3DQEBBAUAA4GBADifv0ZkhxCyK/WgptfPrSucKNf/up+Qlks77YpF
+d+7lbnrkm5qg+Hau+7r0ZYobhU6nyGbTyQGqNNPX4dyCSFby0bTuUoKmQ+kqdYqx
+jyfLl7P1rQhS7C6Oe63+2w/cHaw8esxk1OXheOjxc3YpZ4MOt0DaUUB6UKS7pWrG
+nfKH
 - -----END CERTIFICATE-----
 </key>
     
