@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<notaryProviderContract version="1.0">
+    
+<entity shortname="vanbtc.ca"
+longname="Vancouver Bitcoin"
+email="stretchwarren@gmail.com or asoltys@gmail.com"
+serverURL="vanbtc.ca"/>
+    
+<notaryServer hostname="vanbtc.ca"
+port="7085"
+URL="vanbtc.ca"/>
+    
+<!-- CONDITIONS -->
+    
+<condition name="backing">
+  Any assets issued by Vancouver Bitcoin are backed by 100% reserves; the backing details for each asset 
+  can be viewed in their individual asset contracts.
+</condition>
+    
+<condition name="audit">
+  Vancouver Bitcoin operates open source, Open Transactions software, code audits are randomly performed 
+  by CodeNotary.com.
+</condition>
+    
+<condition name="rate">
+  Issuance and redemption fees for Vancouver Bitcoin assets will specified in their individual asset contracts.
+</condition>
+    
+<condition name="liability">
+  Vancouver Bitcoin is in no way liable for the digital assets that it mints and issues; however, Vancouver 
+  Bitcoin is liable to keep transactions secure (this is why we use Open Transactions).
+</condition>
+    
+<condition name="mint">
+  The total quantity of any digital asset minted by Vancouver Bitcoin will be backed by 100% reserves of 
+  said asset, held in a highly secure and auditable location: audit location and details will be specified 
+  in each individual asset contract. All Vancouver Bitcoin digital asset contracts are cryptographic 
+  digital analogues to their respective natural identities, for example: gold, silver, bitcoin. They cannot 
+  be forged by anyone, including the server operator.
+</condition>
+    
+<condition name="privacy">
+  The purchase and trading of digital assets on Vancouver Bitcoin servers is always conducted on the basis 
+  of strong privacy.
+</condition>
+    
+<!-- KEYS -->
+    
+<key name="contract">
+- -----BEGIN CERTIFICATE-----
+MIICPzCCAaigAwIBAgIBADANBgkqhkiG9w0BAQQFADAlMQswCQYDVQQGEwJVSzEW
+MBQGA1UEAxMNT3BlblNTTCBHcm91cDAeFw0xMzAxMDIwNzE4MjhaFw0yMjEyMzEw
+NzE4MjhaMCUxCzAJBgNVBAYTAlVLMRYwFAYDVQQDEw1PcGVuU1NMIEdyb3VwMIGf
+MA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8Lqgl0PvRv52amrpIDckOz1L9N01w
+6SSkqHhuvcqvOIDzAmp3yBxC24J+YYCFJ5KjmR9Gy3zqSvwE0h8yoA8j3nOOojgP
+uu+R2j+vIXMPKa7C3eRZ4krxyU9CLCgRKkcpUD1ss0wB3tKJXzMcleHqd+3fFNZP
+tlMpEgHy5nw1zwIDAQABo38wfTAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQE
+AwIBBjAdBgNVHQ4EFgQUXRmgauuySd7NRz2NgwIBUoDtoYIwEQYJYIZIAYb4QgEB
+BAQDAgIEMCgGCWCGSAGG+EIBDQQbFhlleGFtcGxlIGNvbW1lbnQgZXh0ZW5zaW9u
+MA0GCSqGSIb3DQEBBAUAA4GBABuLu6DXv/F7ba8ageUDXKaljNKtT/jY1RnB4P3w
+FK1+3IJplezpy/hgrxZo5v+A2hxzv/v+hHPQDQc/wc9KrfM3g6YLpKGG9SlH3aD2
+xBzF+4KNPlkD22jFZ3gCT4jtkJxJFrPNhUEkB62o/bQ3c6u47mEJs8YkQv4mtVeB
+8fqN
+- -----END CERTIFICATE----
+</key>
+    
+</transactionServerContract>
+~
+BuildFolderPath: Made New Folder: /home/adam/.ot/client_data/contracts/
+-------------------------------------------
+New Contract ID: gI301UJlZvagV64BilwmR4UBpBJl9Junwd5sqF9dPfH
+
+-------------------------------------------
+New Contract:
+
+-----BEGIN SIGNED CONTRACT-----
+Hash: SAMY
+
+<?xml version="1.0"?>
+<notaryProviderContract version="1.0">
+    
+<entity shortname="vanbtc.ca"
+longname="Vancouver Bitcoin"
+email="stretchwarren@gmail.com or asoltys@gmail.com"
+serverURL="vanbtc.ca"/>
+    
+<notaryServer hostname="vanbtc.ca"
+port="7085"
+URL="vanbtc.ca"/>
+    
+<!-- CONDITIONS -->
+    
+<condition name="backing">
+  Any assets issued by Vancouver Bitcoin are backed by 100% reserves; the backing details for each asset 
+  can be viewed in their individual asset contracts.
+</condition>
+    
+<condition name="audit">
+  Vancouver Bitcoin operates open source, Open Transactions software, code audits are randomly performed 
+  by CodeNotary.com.
+</condition>
+    
+<condition name="rate">
+  Issuance and redemption fees for Vancouver Bitcoin assets will specified in their individual asset contracts.
+</condition>
+    
+<condition name="liability">
+  Vancouver Bitcoin is in no way liable for the digital assets that it mints and issues; however, Vancouver 
+  Bitcoin is liable to keep transactions secure (this is why we use Open Transactions).
+</condition>
+    
+<condition name="mint">
+  The total quantity of any digital asset minted by Vancouver Bitcoin will be backed by 100% reserves of 
+  said asset, held in a highly secure and auditable location: audit location and details will be specified 
+  in each individual asset contract. All Vancouver Bitcoin digital asset contracts are cryptographic 
+  digital analogues to their respective natural identities, for example: gold, silver, bitcoin. They cannot 
+  be forged by anyone, including the server operator.
+</condition>
+    
+<condition name="privacy">
+  The purchase and trading of digital assets on Vancouver Bitcoin servers is always conducted on the basis 
+  of strong privacy.
+</condition>
+    
+<!-- KEYS -->
+    
+<key name="contract">
+- -----BEGIN CERTIFICATE-----
+MIICPzCCAaigAwIBAgIBADANBgkqhkiG9w0BAQQFADAlMQswCQYDVQQGEwJVSzEW
+MBQGA1UEAxMNT3BlblNTTCBHcm91cDAeFw0xMzAxMDIwNzE4MjhaFw0yMjEyMzEw
+NzE4MjhaMCUxCzAJBgNVBAYTAlVLMRYwFAYDVQQDEw1PcGVuU1NMIEdyb3VwMIGf
+MA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8Lqgl0PvRv52amrpIDckOz1L9N01w
+6SSkqHhuvcqvOIDzAmp3yBxC24J+YYCFJ5KjmR9Gy3zqSvwE0h8yoA8j3nOOojgP
+uu+R2j+vIXMPKa7C3eRZ4krxyU9CLCgRKkcpUD1ss0wB3tKJXzMcleHqd+3fFNZP
+tlMpEgHy5nw1zwIDAQABo38wfTAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQE
+AwIBBjAdBgNVHQ4EFgQUXRmgauuySd7NRz2NgwIBUoDtoYIwEQYJYIZIAYb4QgEB
+BAQDAgIEMCgGCWCGSAGG+EIBDQQbFhlleGFtcGxlIGNvbW1lbnQgZXh0ZW5zaW9u
+MA0GCSqGSIb3DQEBBAUAA4GBABuLu6DXv/F7ba8ageUDXKaljNKtT/jY1RnB4P3w
+FK1+3IJplezpy/hgrxZo5v+A2hxzv/v+hHPQDQc/wc9KrfM3g6YLpKGG9SlH3aD2
+xBzF+4KNPlkD22jFZ3gCT4jtkJxJFrPNhUEkB62o/bQ3c6u47mEJs8YkQv4mtVeB
+8fqN
+- -----END CERTIFICATE----
+</key>
+    
+</transactionServerContract>
+-----BEGIN CONTRACT SIGNATURE-----
+Version: Open Transactions 0.88.e
+Comment: http://github.com/FellowTraveler/Open-Transactions/wiki
+
+CoABFoDrl+M9GDZ23w9Ref8rSpmhbeEFmwcu+LHw9lA8g8W5w535Gcyn9uilojAn
+bXyEWgGuJwq78NcI1x7udcfzK0lY3vEQUPrfv9vXABS8tLn+3lu1Gq2PDZ3z0RdK
+wmAoZxdTGuf5CREdTfRNDzqPelvQWwTA2aTXoNvtOZ34IoU=
+-----END CONTRACT SIGNATURE-----
