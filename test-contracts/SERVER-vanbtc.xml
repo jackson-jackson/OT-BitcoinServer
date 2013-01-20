@@ -2,7 +2,7 @@
 <notaryProviderContract version="1.0">
     
 <entity shortname="vanbtc.ca"
-longname="Vancouver Bitcoin"
+longname="Vancouver Bitcoin Test Server"
 email="stretchwarren@gmail.com or asoltys@gmail.com"
 serverURL="vanbtc.ca"/>
     
@@ -13,8 +13,8 @@ URL="vanbtc.ca"/>
 <!-- CONDITIONS -->
     
 <condition name="backing">
-  Any assets issued by Vancouver Bitcoin are backed by 100% reserves; the backing details for each asset 
-  can be viewed in their individual asset contracts.
+  Any assets issued by Vancouver Bitcoin are backed by 100 percent reserves, the specific backing details for each 
+  asset can be viewed within their individual asset contracts.
 </condition>
     
 <condition name="audit">
@@ -27,13 +27,12 @@ URL="vanbtc.ca"/>
 </condition>
     
 <condition name="liability">
-  Vancouver Bitcoin is in no way liable for the digital assets that it mints and issues; however, Vancouver 
-  Bitcoin is liable to keep transactions secure (this is why we use Open Transactions).
+  Vancouver Bitcoin is in no way liable for the digital assets that it mints and issues.
 </condition>
     
 <condition name="mint">
-  The total quantity of any digital asset minted by Vancouver Bitcoin will be backed by 100% reserves of 
-  said asset, held in a highly secure and auditable location: audit location and details will be specified 
+  The total quantity of any digital asset minted by Vancouver Bitcoin will be backed by 100 percent reserves of 
+  said asset, held in a highly secure and auditable location, the audit location and details will be specified 
   in each individual asset contract. All Vancouver Bitcoin digital asset contracts are cryptographic 
   digital analogues to their respective natural identities, for example: gold, silver, bitcoin. They cannot 
   be forged by anyone, including the server operator.
@@ -49,18 +48,18 @@ URL="vanbtc.ca"/>
 <key name="contract">
 - -----BEGIN CERTIFICATE-----
 MIICPzCCAaigAwIBAgIBADANBgkqhkiG9w0BAQQFADAlMQswCQYDVQQGEwJVSzEW
-MBQGA1UEAxMNT3BlblNTTCBHcm91cDAeFw0xMzAxMDIwNzE4MjhaFw0yMjEyMzEw
-NzE4MjhaMCUxCzAJBgNVBAYTAlVLMRYwFAYDVQQDEw1PcGVuU1NMIEdyb3VwMIGf
-MA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8Lqgl0PvRv52amrpIDckOz1L9N01w
-6SSkqHhuvcqvOIDzAmp3yBxC24J+YYCFJ5KjmR9Gy3zqSvwE0h8yoA8j3nOOojgP
-uu+R2j+vIXMPKa7C3eRZ4krxyU9CLCgRKkcpUD1ss0wB3tKJXzMcleHqd+3fFNZP
-tlMpEgHy5nw1zwIDAQABo38wfTAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQE
-AwIBBjAdBgNVHQ4EFgQUXRmgauuySd7NRz2NgwIBUoDtoYIwEQYJYIZIAYb4QgEB
+MBQGA1UEAxMNT3BlblNTTCBHcm91cDAeFw0xMzAxMDcyMzQ0MTZaFw0yMzAxMDUy
+MzQ0MTZaMCUxCzAJBgNVBAYTAlVLMRYwFAYDVQQDEw1PcGVuU1NMIEdyb3VwMIGf
+MA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+pIm1tgjTnZGvcCfhVFfQZo++LnO1
+4uClGQpN5uqeR0wNqnDXzbHnYMmIJJeNm7fGlAA8nwpIt9yktazJa6u3zWVl+c63
+vDYzASfedPZrujT+ppGIGbjUqNKuro3J8ikOnueF5vb2cBxQafwPyzi313OZt+bK
+fb7Lz9ZMJTbDHQIDAQABo38wfTAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQE
+AwIBBjAdBgNVHQ4EFgQUaNBI2jFeWc+kA5XlPb60Od1cSvgwEQYJYIZIAYb4QgEB
 BAQDAgIEMCgGCWCGSAGG+EIBDQQbFhlleGFtcGxlIGNvbW1lbnQgZXh0ZW5zaW9u
-MA0GCSqGSIb3DQEBBAUAA4GBABuLu6DXv/F7ba8ageUDXKaljNKtT/jY1RnB4P3w
-FK1+3IJplezpy/hgrxZo5v+A2hxzv/v+hHPQDQc/wc9KrfM3g6YLpKGG9SlH3aD2
-xBzF+4KNPlkD22jFZ3gCT4jtkJxJFrPNhUEkB62o/bQ3c6u47mEJs8YkQv4mtVeB
-8fqN
+MA0GCSqGSIb3DQEBBAUAA4GBADifv0ZkhxCyK/WgptfPrSucKNf/up+Qlks77YpF
+d+7lbnrkm5qg+Hau+7r0ZYobhU6nyGbTyQGqNNPX4dyCSFby0bTuUoKmQ+kqdYqx
+jyfLl7P1rQhS7C6Oe63+2w/cHaw8esxk1OXheOjxc3YpZ4MOt0DaUUB6UKS7pWrG
+nfKH
 - -----END CERTIFICATE----
 </key>
     
