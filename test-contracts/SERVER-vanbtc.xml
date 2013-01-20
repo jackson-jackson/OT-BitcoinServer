@@ -1,8 +1,11 @@
+-----BEGIN SIGNED CONTRACT-----
+Hash: SAMY
+
 <?xml version="1.0"?>
 <notaryProviderContract version="1.0">
     
 <entity shortname="vanbtc.ca"
-longname="Vancouver Bitcoin Test Server"
+longname="Vancouver Bitcoin"
 email="stretchwarren@gmail.com or asoltys@gmail.com"
 serverURL="vanbtc.ca"/>
     
@@ -13,8 +16,8 @@ URL="vanbtc.ca"/>
 <!-- CONDITIONS -->
     
 <condition name="backing">
-  Any assets issued by Vancouver Bitcoin are backed by 100 percent reserves, the specific backing details for each 
-  asset can be viewed within their individual asset contracts.
+  Any assets issued by Vancouver Bitcoin are backed by 100% reserves; the backing details for each asset 
+  can be viewed in their individual asset contracts.
 </condition>
     
 <condition name="audit">
@@ -27,12 +30,13 @@ URL="vanbtc.ca"/>
 </condition>
     
 <condition name="liability">
-  Vancouver Bitcoin is in no way liable for the digital assets that it mints and issues.
+  Vancouver Bitcoin is in no way liable for the digital assets that it mints and issues; however, Vancouver 
+  Bitcoin is liable to keep transactions secure (this is why we use Open Transactions).
 </condition>
     
 <condition name="mint">
-  The total quantity of any digital asset minted by Vancouver Bitcoin will be backed by 100 percent reserves of 
-  said asset, held in a highly secure and auditable location, the audit location and details will be specified 
+  The total quantity of any digital asset minted by Vancouver Bitcoin will be backed by 100% reserves of 
+  said asset, held in a highly secure and auditable location: audit location and details will be specified 
   in each individual asset contract. All Vancouver Bitcoin digital asset contracts are cryptographic 
   digital analogues to their respective natural identities, for example: gold, silver, bitcoin. They cannot 
   be forged by anyone, including the server operator.
@@ -48,19 +52,27 @@ URL="vanbtc.ca"/>
 <key name="contract">
 - -----BEGIN CERTIFICATE-----
 MIICPzCCAaigAwIBAgIBADANBgkqhkiG9w0BAQQFADAlMQswCQYDVQQGEwJVSzEW
-MBQGA1UEAxMNT3BlblNTTCBHcm91cDAeFw0xMzAxMDcyMzQ0MTZaFw0yMzAxMDUy
-MzQ0MTZaMCUxCzAJBgNVBAYTAlVLMRYwFAYDVQQDEw1PcGVuU1NMIEdyb3VwMIGf
-MA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+pIm1tgjTnZGvcCfhVFfQZo++LnO1
-4uClGQpN5uqeR0wNqnDXzbHnYMmIJJeNm7fGlAA8nwpIt9yktazJa6u3zWVl+c63
-vDYzASfedPZrujT+ppGIGbjUqNKuro3J8ikOnueF5vb2cBxQafwPyzi313OZt+bK
-fb7Lz9ZMJTbDHQIDAQABo38wfTAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQE
-AwIBBjAdBgNVHQ4EFgQUaNBI2jFeWc+kA5XlPb60Od1cSvgwEQYJYIZIAYb4QgEB
+MBQGA1UEAxMNT3BlblNTTCBHcm91cDAeFw0xMzAxMDkwNTA0MTFaFw0yMzAxMDcw
+NTA0MTFaMCUxCzAJBgNVBAYTAlVLMRYwFAYDVQQDEw1PcGVuU1NMIEdyb3VwMIGf
+MA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtC9F632SlYiFn0Y3Yby50ljo7blYM
+iYbcghtUioD29q2m5vT/pv4A7r3pFqP4ndkwRBHJSad/ShzgyqbdzUgxveZTBUX8
+5ab+lxlD0OYc2IdXfPZRUDXYYcXcR0NX4hsUtrrvqmKCVnzdVbu6gT0LGhkIpoCi
+s2JLRENSCmM6VwIDAQABo38wfTAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQE
+AwIBBjAdBgNVHQ4EFgQURmt9u7KnO+0mJvreNdOOEdSb9yMwEQYJYIZIAYb4QgEB
 BAQDAgIEMCgGCWCGSAGG+EIBDQQbFhlleGFtcGxlIGNvbW1lbnQgZXh0ZW5zaW9u
-MA0GCSqGSIb3DQEBBAUAA4GBADifv0ZkhxCyK/WgptfPrSucKNf/up+Qlks77YpF
-d+7lbnrkm5qg+Hau+7r0ZYobhU6nyGbTyQGqNNPX4dyCSFby0bTuUoKmQ+kqdYqx
-jyfLl7P1rQhS7C6Oe63+2w/cHaw8esxk1OXheOjxc3YpZ4MOt0DaUUB6UKS7pWrG
-nfKH
+MA0GCSqGSIb3DQEBBAUAA4GBAD+E951bw8CX7IwIdKsrQtN++VonOraouJcyZO1P
+pKFUZC6R+IucVNaCwt6+KmZn8fbsw9pOZYaL+efuMGmsijA0KJH9GUgJUTZiy5A7
+CnO/oHG7O9SRKO0O2wyWci7tBpKBWraNPWM8GbPRq0xA2P8qjENbekyuUYLo89g7
+mj96
 - -----END CERTIFICATE----
 </key>
     
 </transactionServerContract>
+-----BEGIN CONTRACT SIGNATURE-----
+Version: Open Transactions 0.88.e
+Comment: http://github.com/FellowTraveler/Open-Transactions/wiki
+
+CoABY0h5zG1cKzd3nBuoi177MvnRJLW5xC+GRMeGfzt9YxGD3uqr279vo66LYjoL
+wOqfSB/P20Y+rTYC+U+ZV71b9rmjlt3SSCRUoEnHNRml6zNp2wnVo3I+PylC1rY6
+oQxwVL3JOid3oEIXSLcues9WB1pCvt6tzjBVOQHkCuc2Sdw=
+-----END CONTRACT SIGNATURE-----
