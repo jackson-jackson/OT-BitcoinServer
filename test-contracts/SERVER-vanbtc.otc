@@ -1,10 +1,7 @@
------BEGIN SIGNED CONTRACT-----
-Hash: SAMY
-
 <?xml version="1.0"?>
-<notaryProviderContract version="1.0">
+<notaryProviderContract version="2.0">
     
-<entity shortname="vanbtc.ca"
+<entity shortname="vancouver bitcoin"
 longname="Vancouver Bitcoin"
 email="stretchwarren@gmail.com or asoltys@gmail.com"
 serverURL="vanbtc.ca"/>
@@ -47,32 +44,4 @@ URL="vanbtc.ca"/>
   of strong privacy.
 </condition>
     
-<!-- KEYS -->
-    
-<key name="contract">
-- -----BEGIN CERTIFICATE-----
-MIICPzCCAaigAwIBAgIBADANBgkqhkiG9w0BAQQFADAlMQswCQYDVQQGEwJVSzEW
-MBQGA1UEAxMNT3BlblNTTCBHcm91cDAeFw0xMzAxMDkwNTA0MTFaFw0yMzAxMDcw
-NTA0MTFaMCUxCzAJBgNVBAYTAlVLMRYwFAYDVQQDEw1PcGVuU1NMIEdyb3VwMIGf
-MA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtC9F632SlYiFn0Y3Yby50ljo7blYM
-iYbcghtUioD29q2m5vT/pv4A7r3pFqP4ndkwRBHJSad/ShzgyqbdzUgxveZTBUX8
-5ab+lxlD0OYc2IdXfPZRUDXYYcXcR0NX4hsUtrrvqmKCVnzdVbu6gT0LGhkIpoCi
-s2JLRENSCmM6VwIDAQABo38wfTAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQE
-AwIBBjAdBgNVHQ4EFgQURmt9u7KnO+0mJvreNdOOEdSb9yMwEQYJYIZIAYb4QgEB
-BAQDAgIEMCgGCWCGSAGG+EIBDQQbFhlleGFtcGxlIGNvbW1lbnQgZXh0ZW5zaW9u
-MA0GCSqGSIb3DQEBBAUAA4GBAD+E951bw8CX7IwIdKsrQtN++VonOraouJcyZO1P
-pKFUZC6R+IucVNaCwt6+KmZn8fbsw9pOZYaL+efuMGmsijA0KJH9GUgJUTZiy5A7
-CnO/oHG7O9SRKO0O2wyWci7tBpKBWraNPWM8GbPRq0xA2P8qjENbekyuUYLo89g7
-mj96
-- -----END CERTIFICATE----
-</key>
-    
-</transactionServerContract>
------BEGIN CONTRACT SIGNATURE-----
-Version: Open Transactions 0.88.e
-Comment: http://github.com/FellowTraveler/Open-Transactions/wiki
-
-CoABY0h5zG1cKzd3nBuoi177MvnRJLW5xC+GRMeGfzt9YxGD3uqr279vo66LYjoL
-wOqfSB/P20Y+rTYC+U+ZV71b9rmjlt3SSCRUoEnHNRml6zNp2wnVo3I+PylC1rY6
-oQxwVL3JOid3oEIXSLcues9WB1pCvt6tzjBVOQHkCuc2Sdw=
------END CONTRACT SIGNATURE-----
+</notaryProviderContract>
