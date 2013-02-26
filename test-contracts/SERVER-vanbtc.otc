@@ -13,7 +13,7 @@ URL="vanbtc.ca"/>
 <!-- CONDITIONS -->
     
 <condition name="backing">
-  Any assets issued by Vancouver Bitcoin are backed by 100% reserves; the backing details for each asset 
+  Any assets issued by Vancouver Bitcoin are backed by 100 percent reserves; the backing details for each asset 
   can be viewed in their individual asset contracts.
 </condition>
     
