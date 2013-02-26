@@ -1,10 +1,7 @@
------BEGIN SIGNED CONTRACT-----
-Hash: SAMY
-
 <?xml version="1.0"?>
-<digitalAssetContract version="1.0">
+<digitalAssetContract version="2.0">
     
-<entity shortname="digiBTCtest"
+<entity shortname="digibitcoin"
 longname="Digital Bitcoin Test Tokens"
 email="stretchwarren@gmail.com or asoltys@gmail.com"/>
 
@@ -13,36 +10,33 @@ email="stretchwarren@gmail.com or asoltys@gmail.com"
 contractUrl="vanbtc.ca/ot/contracts/digiBTC"
 type="currency"/>
     
-<currency name="digiBTC" tla="dBTC" symbol="dBTC"
+<currency name="bitcoin" tla="dBTC" symbol="dBTC"
 type="decimal" factor="1" decimal_power="0" fraction=""/>
     
 <!-- CONDITIONS -->
     
 <condition name="backing">
-  Digital Bitcoin Tokens are backed by actual bitcoin, held in reserve by Vancouver Bitcoin 
-  at 14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin blockchain.
+  Digital Bitcoin Tokens are backed by actual bitcoins held in reserve by Vancouver Bitcoin 
+  at 14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the Bitcoin blockchain.
 </condition>
     
 <condition name="audit">
-  Vancouver Bitcoin's reserves can be audited, at anytime, by viewing 14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn 
-  on the bitcoin blockchain.
+  Vancouver Bitcoin's reserves can be audited at anytime by viewing 14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn 
+  on the Bitcoin blockchain.
 </condition>
     
 <condition name="purchase">
-  Digital Bitcoin Tokens can be purchased with bitcoin, or any other asset—for an agreed upon exchange 
-  rate—at vanbtc.ca/ot/purchase. Any assets exchanged for Digital Bitcoin Tokens, such as cash, will be 
-  exchanged for bitcoin then transferred into Vancouver Bitcoin's minting account at 
-  14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin blockchain, before, Digital Bitcoin Tokens will be 
-  minted and issued to the purchaser. This guarantees 100 percent reserves in the minting account.
+  Digital Bitcoin Tokens can be purchased with bitcoin for an agreed upon exchange 
+  rate at vanbtc.ca/ot/purchase.
 </condition>
     
 <condition name="redemption">
-  Digital Bitcoin Tokens can be redeemed at vanbtc.ca/redeem.
+  Digital Bitcoin Tokens can be used to redeem bitcoins at vanbtc.ca/ot/redeem.
 </condition>
     
 <condition name="rate">
   Issuance and redemption will be performed for a small fee by Vancouver Bitcoin, this fee pays for 
-  administration and server expenses etc.
+  administration and server expenses.
 </condition>
     
 <condition name="buyback">
@@ -52,15 +46,13 @@ type="decimal" factor="1" decimal_power="0" fraction=""/>
     
 <condition name="liability">
   Vancouver Bitcoin is in no way liable for the Digital Bitcoin Tokens that it mints and issues; however, 
-  Vancouver Bitcoin will buy back any Digital Bitcoin Tokens it has issued, and for which it has the 
-  equivalent amount of bitcoin is held in reserve at 14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin 
-  blockchain.
+  Vancouver Bitcoin will buy back any Digital Bitcoin Tokens it has issued.
 </condition>
     
 <condition name="mint">
-  The total quantity of Digital Bitcoin Tokens, minted by Vancouver Bitcoin, will be the 
+  The total quantity of Digital Bitcoin Tokens minted by Vancouver Bitcoin will be the 
   exact amount of bitcoin held in Vancouver Bitcoin's reserve account 
-  at 14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the bitcoin blockchain. Vancouver Bitcoin mints 
+  at 14Ch4z1asqNYvisoKzY4NTTXL3PTHHxKhn on the Bitcoin blockchain. Vancouver Bitcoin mints 
   Digital Bitcoin Tokens from actual bitcoin—JUST LIKE GOLD MINTS MINT GOLD COINS OUT OF ACTUAL GOLD.
 </condition>
     
@@ -68,32 +60,4 @@ type="decimal" factor="1" decimal_power="0" fraction=""/>
   The purchase and exchange of Digital Bitcoin Tokens are conducted on the basis of strong privacy.
 </condition>
     
-<!-- KEYS -->
-    
-<key name="contract">
-- -----BEGIN CERTIFICATE-----
-MIICPzCCAaigAwIBAgIBADANBgkqhkiG9w0BAQQFADAlMQswCQYDVQQGEwJVSzEW
-MBQGA1UEAxMNT3BlblNTTCBHcm91cDAeFw0xMzAxMDkwNTI1MzRaFw0yMzAxMDcw
-NTI1MzRaMCUxCzAJBgNVBAYTAlVLMRYwFAYDVQQDEw1PcGVuU1NMIEdyb3VwMIGf
-MA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDP3A+OrTA5dBfXdf9T3b8CXFPbwHb
-6tpzUvumU8mzqcFCVRf75u9HYoeWMvI1IKbhM5OvJCMH5gfy332jUz7O+BR4FrGV
-WgHFj6jHccb3AFHrNeSp+svuE7rRkEKQf2xSs4IOoXlrpdgJPIlE7YjT6Q0TK7Hr
-JAWifnFBDYYPiQIDAQABo38wfTAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQE
-AwIBBjAdBgNVHQ4EFgQUhHfgdze5OmZGH4kHeCRUk4C4KUwwEQYJYIZIAYb4QgEB
-BAQDAgIEMCgGCWCGSAGG+EIBDQQbFhlleGFtcGxlIGNvbW1lbnQgZXh0ZW5zaW9u
-MA0GCSqGSIb3DQEBBAUAA4GBABKLjd6pFgXMQ5iDd5kYtssxL61XuHLluNPWHFoU
-1aARjBewFDi8EUwFemIvipZXtIevuoUkGeubgSvFUVUShoUUySmkDW6MFbSJ9tnI
-BnSymf8ASbH7sQf2JW+EssLhZyEC3J29nG8lbDcR9u5/8I+lHAE/MxE2ZMWDaL+C
-o1bw
-- -----END CERTIFICATE-----
-</key>
-    
 </digitalAssetContract>
------BEGIN CONTRACT SIGNATURE-----
-Version: Open Transactions 0.88.e
-Comment: http://github.com/FellowTraveler/Open-Transactions/wiki
-
-CoABJMfZYn3z/cRTh8TtLC3W1eEbCMIFwbZaAb6C/EZ5thh4Fnj39hN8DNRdFldO
-kPUiFUhEnFauu57jOjEjy8kTbkbtvv2yazpbsYlh/TVPZ7Wx54AL8LiKiaQ/f8V5
-RgbM6wZFZoQCNSH+TL9HX9eV5eoJZFX/H7coVQHdImXDlWY=
------END CONTRACT SIGNATURE-----
