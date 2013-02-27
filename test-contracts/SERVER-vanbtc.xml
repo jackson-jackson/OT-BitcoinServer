@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<notaryProviderContract version="2.0">
+    
+<entity shortname="vancouver bitcoin"
+longname="Vancouver Bitcoin"
+email="stretchwarren@gmail.com or asoltys@gmail.com"
+serverURL="jackson.vanbtc.ca"/>
+    
+<notaryServer hostname="jackson.vanbtc.ca"
+port="7085"
+URL="jackson.vanbtc.ca"/>
+    
+<!-- CONDITIONS -->
+    
+<condition name="backing">
+  Any assets issued by Vancouver Bitcoin are backed by 100 percent reserves. The backing details for each asset 
+  can be viewed in their individual asset contracts.
+</condition>
+    
+<condition name="audit">
+  Vancouver Bitcoin operates open source Open-Transactions software; code audits are randomly performed 
+  by CodeNotary.com.
+</condition>
+    
+<condition name="rate">
+  Issuance and redemption fees for Vancouver Bitcoin assets will be specified in their individual asset contracts.
+</condition>
+    
+<condition name="liability">
+  Vancouver Bitcoin is in no way liable for the digital assets that it mints and issues, nor the transactions that
+  it processes.
+</condition>
+    
+<condition name="mint">
+  The total quantity of any digital asset minted by Vancouver Bitcoin will be backed by 100 percent provable reserves
+  of said asset—e.g., gold, silver, bitcoin etc—held in a highly secure and auditable location; audit location and details 
+  will be specified in each individual asset contract. All Vancouver Bitcoin digital asset contracts are 
+  cryptographic-digital-analogues to their respective natural identities; for example: gold, silver, bitcoin. They 
+  cannot be forged by anyone, including the server operator.
+</condition>
+    
+<condition name="privacy">
+  The purchase and trading of digital assets on Vancouver Bitcoin servers is always conducted on the basis 
+  of strong privacy.
+</condition>
+    
+</notaryProviderContract>
