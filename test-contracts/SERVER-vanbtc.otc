@@ -4,11 +4,11 @@
 <entity shortname="vancouver bitcoin"
 longname="Vancouver Bitcoin"
 email="stretchwarren@gmail.com or asoltys@gmail.com"
-serverURL="vanbtc.ca"/>
+serverURL="jackson.vanbtc.ca"/>
     
-<notaryServer hostname="vanbtc.ca"
+<notaryServer hostname="jackson.vanbtc.ca"
 port="7085"
-URL="vanbtc.ca"/>
+URL="jackson.vanbtc.ca"/>
     
 <!-- CONDITIONS -->
     
