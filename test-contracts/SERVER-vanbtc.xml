@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <notaryProviderContract version="2.0">
     
-<entity shortname="vancouver bitcoin"
-longname="Vancouver Bitcoin"
-email="stretchwarren@gmail.com or asoltys@gmail.com"
-serverURL="jackson.vanbtc.ca"/>
+<entity shortname="cointrader ot"
+longname="Cointrader Open Transaction"
+email="jackson@cointradernet or shane@cointrader.net"
+serverURL="erno.ca"/>
     
-<notaryServer hostname="jackson.vanbtc.ca"
+<notaryServer hostname="erno.ca"
 port="7085"
-URL="jackson.vanbtc.ca"/>
+URL="erno.ca"/>
     
 <!-- CONDITIONS -->
     
 <condition name="backing">
-  Any assets issued by Vancouver Bitcoin are backed by 100 percent reserves. The backing details for each asset 
+  Any assets issued by Cointrader Exchange Inc. are backed by 100 percent reserves. The backing details for each asset 
   can be viewed in their individual asset contracts.
 </condition>
     
