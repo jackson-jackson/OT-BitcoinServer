@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<notaryProviderContract version="2.0">
+    
+<entity shortname="Cointrader.net"
+longname="Cointrader Open Transactions Server"
+email="jackson@cointradernet or shane@cointrader.net"
+serverURL="coinzero.ca"/>
+    
+<notaryServer hostname="coinzero.ca"
+port="7085"
+URL="coinzero.ca"/>
+    
+<!-- CONDITIONS -->
+    
+<condition name="backing">
+  Any assets issued by Cointrader Exchange Inc are backed by 100 percent reserves. The backing details for each asset 
+  can be viewed in their individual asset contracts.
+</condition>
+    
+<condition name="audit">
+  Cointrader Exchange Inc operates open source Open-Transactions software; code audits are randomly performed 
+  by CodeNotary.com.
+</condition>
+    
+<condition name="rate">
+  Issuance and redemption fees for Cointrader Exchange Inc assets will be specified in their individual asset contracts.
+</condition>
+    
+<condition name="liability">
+  Cointrader Exchange Inc is in no way liable for the digital assets that it mints and issues, nor is liable for the 
+  transactions that it processes.
+</condition>
+    
+<condition name="mint">
+  The total quantity of any digital asset minted by Cointrader Exchange Inc will be backed by 100 percent provable 
+  reserves of said asset — e.g., gold, silver, bitcoin etc — held in a highly secure and auditable location. Audit 
+  location and details will be specified in each individual asset contract. All Cointrader Exchange Inc digital asset 
+  contracts are cryptographic digital-analogues to their respective natural identities; for example: gold, silver, 
+  bitcoin. They cannot be forged by anyone, including the server operator.
+</condition>
+    
+<condition name="privacy">
+  The purchase and trading of digital assets on Cointrader Exchange Inc servers is always conducted on the basis 
+  of strong privacy.
+</condition>
+    
+</notaryProviderContract>
