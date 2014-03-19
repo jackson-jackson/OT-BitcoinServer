@@ -1,47 +1,59 @@
 <?xml version="1.0"?>
 <notaryProviderContract version="2.0">
-    
-<entity shortname="Cointrader.net"
-longname="Cointrader Open Transactions Server"
-email="jackson@cointradernet or shane@cointrader.net"
+
+<entity shortname="Cointrader.net" 
+longname="Cointrader Exchange Inc." 
+email="jackson@cointrader.net or shane@cointrader.net"
 serverURL="coinzero.ca"/>
-    
-<notaryServer hostname="coinzero.ca"
-port="7085"
-URL="coinzero.ca"/>
-    
-<!-- CONDITIONS -->
-    
+
+<notaryServer hostname="coinzero.ca" 
+ port="7085"
+ URL="coinzero.ca" />
+
 <condition name="backing">
-  Any assets issued by Cointrader Exchange Inc are backed by 100 percent reserves. The backing details for each asset 
-  can be viewed in their individual asset contracts.
+  Cointrader.net does not issue any currencies or digital assets,
+  and does not back any of the same. You are solely responsible for
+  whom you choose to trade with. 
 </condition>
-    
+
 <condition name="audit">
-  Cointrader Exchange Inc operates open source Open-Transactions software; code audits are randomly performed 
-  by CodeNotary.com.
+Cointrader.net operates open-source OpenTransactions software, and
+code audits are randomly performed by CodeNotary.com
+Our insurance company is:  GeicoCurrency.com
 </condition>
-    
+
 <condition name="rate">
-  Issuance and redemption fees for Cointrader Exchange Inc assets will be specified in their individual asset contracts.
+  Transaction credits may be purchased on our website, the fees for which
+  are posted there also. We make money solely from transaction processing,
+  that is, providing an electronic notary service for others, for a usage fee.
 </condition>
-    
+
 <condition name="liability">
-  Cointrader Exchange Inc is in no way liable for the digital assets that it mints and issues, nor is liable for the 
-  transactions that it processes.
+  Issuers are solely liable to perform according to
+  the conditions specified in their asset contracts.
+  Cointrader.net is liable to keep transactions secure and clean.
 </condition>
-    
+
 <condition name="mint">
-  The total quantity of any digital asset minted by Cointrader Exchange Inc will be backed by 100 percent provable 
-  reserves of said asset — e.g., gold, silver, bitcoin etc — held in a highly secure and auditable location. Audit 
-  location and details will be specified in each individual asset contract. All Cointrader Exchange Inc digital asset 
-  contracts are cryptographic digital-analogues to their respective natural identities; for example: gold, silver, 
-  bitcoin. They cannot be forged by anyone, including the server operator.
+  Float - the total quantity of any digital asset outstanding -
+  is created by the issuer from his own mint, and signed by his private key.
+  
+  Disbursements from the Mint account are to be made on receipt of
+  duly signed and public authorization from the Issuer.  All
+  disbursements from the Mint account are to be made to the single
+  Currency Comptroller account identified by the authorization.
+
+  From time to time, the Currency Comptroller may direct the
+  Currency Manager to return digital assets to the Mint
+  for the express purpose of reducing the float. Digital assets
+  so delivered are to be deposited into the Mint account,
+  thus reducing the float by that amount.
 </condition>
-    
+
 <condition name="privacy">
-  The purchase and trading of digital assets on Cointrader Exchange Inc servers is always conducted on the basis 
-  of strong privacy.
+  The purchase, redemption and trading at Cointrader.net normally
+  are done on the basis of strong privacy. We will never release any of
+  your information unless compelled by law.
 </condition>
-    
+
 </notaryProviderContract>
