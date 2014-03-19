@@ -10,7 +10,7 @@ email="stretchwarren@gmail.com or asoltys@gmail.com"
 contractUrl="vanbtc.ca/ot/contracts/digiBTC"
 type="currency"/>
     
-<currency name="bitcoin" tla="dBTC" symbol="dBTC"
+<currency name="Bitcoin" tla="BTC" symbol="dBTC"
 type="decimal" factor="1" decimal_power="0" fraction=""/>
     
 <!-- CONDITIONS -->
